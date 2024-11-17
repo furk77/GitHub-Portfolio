@@ -1,6 +1,6 @@
 /* General Styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Host Grotesk', Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
@@ -10,6 +10,7 @@ body {
 
 /* Header */
 header {
+    font-family: 'Host Grotesk', Arial;
     background-color: #333;
     color: #fff;
     padding: 20px 0;
@@ -20,12 +21,13 @@ header .name {
     font-size: 2.5rem;
     font-weight: bold;
     padding-left: 35px;
+    text-align: left;
 }
 
 /* Introduction Section */
 .intro {
     padding: 20px;
-    margin-top: 20px;
+    margin-top: 40px;
     font-size: 1.2rem;
 }
 
