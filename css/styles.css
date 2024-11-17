@@ -21,7 +21,7 @@ header .name {
     font-weight: bold;
     text-align: left;
     font-family: 'Host Grotesk', Arial;
-    margin-left: 10px;
+    padding-left: 10px;
 }
 
 /* Introduction Section */
