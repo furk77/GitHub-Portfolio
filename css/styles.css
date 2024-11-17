@@ -21,13 +21,13 @@ header .name {
     font-weight: bold;
     text-align: left;
     font-family: 'Host Grotesk', Arial;
-    padding-left: 35px;
+    padding-left: 50px;
 }
 
 /* Introduction Section */
 .intro {
     padding: 20px;
-    margin-top: 20px;
+    margin-top: 40px;
     font-size: 1.2rem;
 }
 
