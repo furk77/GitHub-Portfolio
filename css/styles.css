@@ -22,13 +22,12 @@ header .name {
     font-size: 2.5rem;
     font-weight: bold;
     padding-left: 35px;
-    margin-bottom: 40px;
 }
 
 /* Introduction Section */
 .intro {
     padding: 20px;
-    margin-top: 80px;
+    margin-top: 200px;
     font-size: 1.2rem;
 }
 
