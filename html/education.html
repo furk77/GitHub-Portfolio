@@ -15,23 +15,65 @@
             <i class="fas fa-home"></i>
         </a>
     </header>
+    
+    <section class="education">
+        <div class="education-item">
+            <h3>University of Illinois at Urbana-Champaign</h3>
+            <p class="degree">Bachelor of Science in Computer Science</p>
+            <p class="dates">August 2024 - May 2026</p>
+            <p class="details">GPA: 3.9/4.0 (In progress)</p>
+        </div>
+        <div class="education-item">
+            <h3>William Rainey Harper College</h3>
+            <p class="degree">Associate of Science in Engineering</p>
+            <p class="dates">August 2022 – May 2024</p>
+            <p class="details">GPA: 4.0/4.0 (Final)</p>
+        </div>
+        <div class="education-item">
+            <h3>Seattle Central College</h3>
+            <p class="degree">Associate in Business</p>
+            <p class="dates">August 2021 – May 2023</p>
+            <p class="details">GPA: 3.8/4.0 (Final)</p>
+        </div>
+        <div class="education-item">
+            <h3>Relevant Coursework</h3>
+            <button class="toggle-btn" onclick="toggleCoursework()">Show Classes</button>
+            <ul class="coursework-list" id="coursework-list" style="display: none;">
+                <li>Leading Teams (LEAD 425)</li>
+                <li>Applied Machine Learning (CS 441)</li>
+                <li>Numerical Methods (CS 357)</li>
+                <li>System Programming (CS 341)</li>
+                <li>Software Design Lab (CS 222)</li>
+                <li>User Interface Design (CS 465)</li>
+                <li>Probability and Statistics for CS (CS 361)</li>
+                <li>Computer Architecture (CS 233)</li>
+                <li>Data Structures and Algoithms (CS 225)</li>
+                <li>Ethics for CS (CS 211)</li>
+                <li>Differential Equations (MATH 284)</li>
+                <li>Linear Algebra (MATH 257)</li>
+            </ul>
+        </div>
+    </section>
+
+    <script>
+        function toggleCoursework() {
+            const courseworkList = document.getElementById('coursework-list');
+            const toggleButton = document.querySelector('.toggle-btn');
+
+            if (courseworkList.style.display === 'none') {
+                courseworkList.style.display = 'block';
+                toggleButton.textContent = 'Hide Classes';
+            } else {
+                courseworkList.style.display = 'none';
+                toggleButton.textContent = 'Show Classes';
+            }
+        }
+    </script>
+
+    <footer>
+        <p>&copy Furkan Akin 2024</p>
+    </footer>
+
 </body>
-
-<footer class="rest">
-    <p>&copy Furkan Akin 2024</p>
-</footer>
-
-</body>
-
-
-
-
-
-
-
-
-
-
-
 
 </html>
