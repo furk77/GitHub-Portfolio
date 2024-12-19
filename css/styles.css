@@ -16,6 +16,7 @@ header {
     background-color: #021e3b;
     color: #fff;
     padding: 20px 0;
+    position: relative; 
 }
 
 header .name {
@@ -55,17 +56,17 @@ header .name {
 }
 
 .home-icon {
-    position: absolute; /* Keeps it in place while scrolling */
-    top: 23px; /* Adjust vertical position */
-    left: 1430px; /* Adjust horizontal position */
-    font-size: 2.5rem; /* Size of the icon */
-    color: #ffffff; /* Icon color */
-    text-decoration: none; /* Remove underline */
+    position: absolute; 
+    top: 20px; 
+    right: 30px; 
+    font-size: 2.5rem; 
+    color: #ffffff; 
+    text-decoration: none; 
     transition: color 0.3s ease;
 }
 
 .home-icon:hover {
-    color: #0073e6; /* Change color on hover */
+    color: #0073e6; 
 }
 
 
